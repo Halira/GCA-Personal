@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Pacifico|Righteous|Roboto+Condensed|Ubuntu&display=swap');
+
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: lato;
+}
+
+.navbar-brand{
+    font-family: pacifico;
+    margin: 35px;
+    color: purple;
+}
+
+.nav-link{
+    font-size: 16px !important;
+    margin: 15px;
+    color: black !important;
+    font-family: Roboto;
+    
+}
+
+.nav-link:hover{
+    color: purple !important;
+}
+.site-slogan,.hailo-msg{
+    padding-inline: 13px 40px;
+    font-family: Roboto;
+
+}
+.Section-1{
+    background-image: url(Sec1.jpg);
+     background-attachment: fixed;
+     background-size: cover;
+     margin-top: 5%;
+ }
+ .para-1{
+     font-size: 15px;
+     font-family: serif;
+     font-style: normal;
+     padding-left: 15%;
+ }
+
+.Section-1{
+    margin-bottom: 10%;
+}
+
+.Section-2{
+    margin-top: 5%;
+}
+
+.heading-2{
+    font-family: Roboto;
+}
+.btn-primary{
+    color: black;
+background-color: #DA90DC;
+}
+
+.btn-primary :hover{
+    color: #da90dc;
+}
+
+.Section-3{
+    margin-top: 5%;
+}
+
+.Section-4{
+    margin-top: 5%;
+    /* margin-bottom: 10%; */
+    background-color: #DA90DC;
+    padding: 4% 0 4% 0;
+    
+}
+ .Section-5{
+     /* margin-top: 5%; */
+     background-color: purple;
+     padding: 4% 0 4% 0;
+ }
+ 
