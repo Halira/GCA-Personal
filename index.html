@@ -27,22 +27,22 @@
                 <div class="collapse navbar-collapse" id="navbarMenu">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a href="#" class="nav-link">About us</a>
+                            <a href="#aboutus" class="nav-link">About us</a>
                         </li>
                         <li class="nav-item">
-                            <a href="heading-1" class="nav-link">Services</a>
+                            <a href="#services" class="nav-link">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Gallery</a>
+                            <a href="#gallery" class="nav-link">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Sign in</a>
+                            <a href="#login" class="nav-link">Sign in</a>
                         </li>
                         <li class="nav-item">
-                            <a href="heading-5" class="nav-link">Sign up</a>
+                            <a href="#signup" class="nav-link">Sign up</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Contact us</a>
+                            <a href="#contactus" class="nav-link">Contact us</a>
                         </li>
                     </ul>
                 </div>
@@ -98,7 +98,7 @@
                 </div>
             </div>
         </div>
-        <div class="Section-1">
+        <div class="Section-1" id="aboutus">
             <div class="container text-center">
                 <div class="d-flex justify-content-center">
                     <div class="d-flex flex-column">
@@ -115,7 +115,7 @@
                 </div>
             </div>
         </div>
-        <div class="Section-2">
+        <div class="Section-2" id="Services">
             <div class="container">
                 <h2 class="heading-2 text-center">Services</h2>
                 <div class="row">
@@ -131,7 +131,7 @@
                                     <a href="#" class="btn btn-primary">Book a Session</a>
                                 </div>
                                 <div class="col-md-5">
-                                    <a href="#" class="btn btn-primary">View gallery</a>
+                                    <a href="#gallery" class="btn btn-primary">View gallery</a>
                                 </div>
                             </div>
                         </div>
@@ -149,8 +149,8 @@
                                 <div class="col-md-4">
                                     <a href="#" class="btn btn-primary">Book a Session</a>
                                 </div>
-                                <div class="col-md-5 ">
-                                    <a href="#" class="btn btn-primary">View Gallery</a>
+                                <div class="col-md-5">
+                                    <a href="#gallery" class="btn btn-primary">View Gallery</a>
                                 </div>
                             </div>
                         </div>
@@ -169,7 +169,7 @@
                                     <a href="#" class="btn btn-primary">Book a Session</a>
                                 </div>
                                 <div class="col-md-5">
-                                    <a href="#" class="btn btn-primary">View gallery</a>
+                                    <a href="#gallery" class="btn btn-primary">View gallery</a>
                                 </div>
                             </div>
                         </div>
@@ -188,7 +188,7 @@
                                     <a href="#" class="btn btn-primary">Book a Session</a>
                                 </div>
                                 <div class="col-md-5">
-                                    <a href="#" class="btn btn-primary">View gallery</a>
+                                    <a href="gallery" class="btn btn-primary">View gallery</a>
                                 </div>
                             </div>
                         </div>
@@ -198,21 +198,27 @@
             </div>
         </div>
     </main>
-    <div class="Section-3">
-        <div class="container">
+    <div class="Section-3" id="gallery">
+        <div class="container" style="width: 20rem;">
             <div class="container-fluid">
                 <h1 class="heading-2 text-center">Gallery</h1>
                 <p class="para-2 text-center">View our recent uploads</p>
                 <div id="Gallery Images" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="" class="d-block w-100" alt="Drey's upload">
+                            <img src="gallery3.jpg" class="d-block w-100" alt="Drey's upload">
                         </div>
                         <div class="carousel-item">
-                            <img src="..." class="d-block w-100" alt="Deola">
+                            <img src="Gallerypic1.jpg" class="d-block w-100" alt="Deola">
                         </div>
                         <div class="carousel-item">
-                            <img src="" class="d-block w-100" alt="Hair">
+                            <img src="Kiddy.jpg" class="d-block w-100" alt="Hair">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="nails.jpg" class="d-block w-100" alt="Nail">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="nails1.jpg" class="d-block w-100" alt="Nail">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="Gallery Images" role="button" data-slide="prev">
@@ -223,13 +229,14 @@
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
+                    
                 </div>
             </div>
         </div>
     </div>
-    <div class="Section-4">
+    <div class="Section-4" id="login">
         <div class="container">
-            <h4 class="heading-2 text-center">Sign in</h4>
+            <h4 class="heading-2 text-center">Log in</h4>
             <p class="para-2 text-center">Welcome back, sign in to your account</p>
             <form style="margin-left:30%;" class="row">
                 <div class="col-md-8">
@@ -254,7 +261,7 @@
             </form>
         </div>
     </div>
-    <div class="Section-5">
+    <div class="Section-5" id="signup">
         <div class="container col-md-6">
             <h1 class="heading-5 text-center">Sign up</h1>
             <p class="para-3 text-center">Create a merchant account</p>
@@ -303,7 +310,7 @@
             </form>
         </div>
     </div>
-    <footer class="section-6">
+    <footer class="section-6" id="contactus">
         <h1 class="Contact-us mt-5 text-center">Contact us</h1>
         <div class="Section-6 text-center">
             <h6 style="margin-top: 2%;">We are available to answer all your questions</h6>
@@ -311,13 +318,13 @@
 
             <div class="form-inline justify-content-center">
                 <input type="text" name="Email" id="email" placeholder="Email" size="48" class="form-control px-4 py-2">
-                <input type="button" value="Contact Us" class="btn btn danger px-4 py-2">
+                <input type="button" value="Contact Us" class="btn btn-danger px-4 py-2">
             </div>
 
             <div class="social" style="margin:5%;">
-                <div class="d-flex justify-content-center">
-                    <i class="fab fa-facebook-f m-2"></i>
-                    <i class="fab fa-twitter m-2"></i>
+                <div class="d-flex flex-row justify-content-center">
+                    <img src="facebook.png "></i>
+                    <img src="twitter.png m-2"></i>
                     <i class="fab fa-instagram m-2"></i>
                     <i class="fab fa-youtube m-2"></i>
                 </div>

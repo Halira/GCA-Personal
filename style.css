@@ -55,11 +55,11 @@ body{
 }
 .btn-primary{
     color: black;
-background-color: #DA90DC;
+background-color: purple;
 }
 
 .btn-primary :hover{
-    color: #da90dc;
+    color: purple;
 }
 
 .Section-3{
@@ -69,7 +69,7 @@ background-color: #DA90DC;
 .Section-4{
     margin-top: 5%;
     /* margin-bottom: 10%; */
-    background-color: #DA90DC;
+    background-color: purple;
     padding: 4% 0 4% 0;
     
 }
@@ -79,3 +79,6 @@ background-color: #DA90DC;
      padding: 4% 0 4% 0;
  }
  
+ @media screen and (max-width:768px){
+    .Section-1 
+ }
