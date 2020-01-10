@@ -16,8 +16,8 @@ body{
 .nav-link{
     font-size: 16px !important;
     margin: 15px;
-    color: black !important;
-    font-family: Roboto;
+    color: white !important;
+    font-family: 'Roboto';
     
 }
 
@@ -68,17 +68,13 @@ background-color: purple;
 
 .Section-4{
     margin-top: 5%;
-    /* margin-bottom: 10%; */
     background-color: purple;
     padding: 4% 0 4% 0;
     
 }
  .Section-5{
-     /* margin-top: 5%; */
-     background-color: purple;
+     background-color: grey;
      padding: 4% 0 4% 0;
  }
  
- @media screen and (max-width:768px){
-    .Section-1 
- }
+ 
