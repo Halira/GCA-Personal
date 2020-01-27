@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -168,7 +170,7 @@
                     </div>
                     <div class="col-md-6" style="margin-top: 15%;">
                         <div style="margin-left: 10%;">
-                            <h4 class="card-title">Drey Hair &</h4>
+                            <h4 class="card-title">Omah's Beauty Shop</h4>
                             <p class="card-text">Abule Ijesha,Yaba</p>
                             <div class="row">
                                 <div class="col-md-4">
@@ -187,8 +189,8 @@
                     </div>
                     <div class="col-md-6" style="margin-top: 15%;">
                         <div style="margin-left: 10%;">
-                            <h4 class="card-title">Drey Hair & Nail Salon</h4>
-                            <p class="card-text">Abule Ijesha,Yaba</p>
+                            <h4 class="card-title">BennyKodum Hair Salon</h4>
+                            <p class="card-text">Ikeja GRA</p>
                             <div class="row">
                                 <div class="col-md-4">
                                     <a href="#" class="btn btn-primary">Book a Session</a>
@@ -204,72 +206,95 @@
             </div>
         </div>
     </main>
+    
     <div class="Section-3" id="gallery">
-                <h1 style="text-align:center">Gallery</h1>
-                <div class="container">
-                  <div class="mySlides">
+        <h1 style="text-align:center">Gallery</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                <div class="mySlides">
                     <div class="numbertext">1 / 6</div>
-                    <img src="nails2.jpg" style="width:20rem">
-                  </div>
-                
-                  <div class="mySlides">
+                    <img src="nails2.jpg" style="width:20rem" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                </div>
+                </div>
+
+                <div class="col-md-4">
+                <div class="mySlides">
                     <div class="numbertext">2 / 6</div>
-                    <img src="Gallery1.jpg" style="width:20rem">
-                  </div>
-                
-                  <div class="mySlides">
+                    <img src="Gallery1.jpg" style="width:20rem" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                </div>
+                </div>
+    
+                <div class="col-md-4">
+                <div class="mySlides">
                     <div class="numbertext">3 / 6</div>
-                    <img src="Gallerypic1.jpg" style="width:20rem">
-                  </div>
-                    
-                  <div class="mySlides">
+                    <img src="Gallerypic1.jpg" style="width:20rem" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                <div class="mySlides">
                     <div class="numbertext">4 / 6</div>
                     <img src="gallery3.jpg" style="width:20rem">
-                  </div>
-                
-                  <div class="mySlides">
+                </div>
+                </div>
+    
+                <div class="col-md-4">
+                <div class="mySlides">
                     <div class="numbertext">5 / 6</div>
                     <img src="Kiddy.jpg" style="width:20rem">
-                  </div>
-                    
-                  <div class="mySlides">
+                </div>
+                </div>
+                <div class="col-md-4">
+                <div class="mySlides">
                     <div class="numbertext">6 / 6</div>
                     <img src="nails1.jpg" style="width:20rem">
-                  </div>
-                    
-                  <a class="prev" onclick="plusSlides(-1)">❮</a>
-                  <a class="next" onclick="plusSlides(1)">❯</a>
-                
-                  <div class="caption-container">
-                    <p id="caption"></p>
-                  </div>
-                
-                  <div class="row">
-                    <div class="column">
-                      <img class="demo cursor" src="nails2.jpg" style="width:20rem" onclick="currentSlide(1)" alt="Drey's upload">
-                    </div>
-                    <div class="column">
-                      <img class="demo cursor" src="Gallery1.jpg" style="width:20rem" onclick="currentSlide(2)" alt="">
-                    </div>
-                    <div class="column">
-                      <img class="demo cursor" src="Gallerypic1.jpg" style="width:20rem" onclick="currentSlide(3)" alt="Mountains and fjords">
-                    </div>
-                    <div class="column">
-                      <img class="demo cursor" src="gallery3.jpg" style="width:20rem" onclick="currentSlide(4)" alt="Northern Lights">
-                    </div>
-                    <div class="column">
-                      <img class="demo cursor" src="Kiddy.jpg" style="width:20rem" onclick="currentSlide(5)" alt="Nature and sunrise">
-                    </div>    
-                    <div class="column">
-                      <img class="demo cursor" src="nails1.jpg" style="width:20rem" onclick="currentSlide(6)" alt="Snowy Mountains">
-                    </div>
-                  </div>
                 </div>
-                
-
+                </div>
+            </div>
+    
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+    
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+    
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="nails2.jpg" style="width:20rem" onclick="currentSlide(1)"
+                            alt="Drey's upload">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="Gallery1.jpg" style="width:20rem" onclick="currentSlide(2)"
+                            alt="Deola's upload">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="Gallerypic1.jpg" style="width:20rem" onclick="currentSlide(3)"
+                            alt="Ella's upload">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="gallery3.jpg" style="width:20rem" onclick="currentSlide(4)"
+                            alt="Northern Lights">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="Kiddy.jpg" style="width:20rem" onclick="currentSlide(5)"
+                            alt="Deola's upload">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="nails1.jpg" style="width:20rem" onclick="currentSlide(6)"
+                            alt="Drey's upload">
+                    </div>
                 </div>
             </div>
         </div>
+        
+
+
+    </div>
+    </div>
+    </div>
     </div>
     <div class="Section-4" id="login">
         <div class="container">
@@ -348,9 +373,6 @@
         </div>
     </div>
 
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452"
-        width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
 
     <div class="container wow fadeInUp mt-5">
         <div class="row justify-content-center">
@@ -359,23 +381,25 @@
 
                 <div class="info">
                     <div>
-                        <i class="fa fa-map-marker"></i>
-                        <p>A108 Adam Street<br>New York, NY 535022</p>
+                        <i class="Address"></i>
+                        <p>The Nest Innovation park</p>
                     </div>
 
                     <div>
-                        <i class="fa fa-envelope"></i>
-                        <p>info@example.com</p>
+                        <i class="envelope"></i>
+                        <p>info@hairlo.com</p>
                     </div>
 
+
+                    
                     <div>
-                        <i class="fa fa-phone"></i>
-                        <p>+1 5589 55488 55s</p>
+                        <i class="phone"></i>
+                        <p>+234 708 3344</p>
                     </div>
                 </div>
 
                 <div class="social-links">
-                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="twitter"><i class=" fa fa-twitter"></i></a>
                     <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
                     <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
                     <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
@@ -421,6 +445,49 @@
             <script src="js/jquery-3.3.1.slim.min.js"></script>
             <script src="js/popper.min.js"></script>
             <script src="js/bootstrap.min.js"></script>
+
+            <script>
+                // Open the Modal
+                function openModal() {
+                  document.getElementById("myModal").style.display = "block";
+                }
+                
+                // Close the Modal
+                function closeModal() {
+                  document.getElementById("myModal").style.display = "none";
+                }
+                
+                var slideIndex = 1;
+                showSlides(slideIndex);
+                
+                // Next/previous controls
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+                
+                // Thumbnail image controls
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+                
+                function showSlides(n) {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  var dots = document.getElementsByClassName("demo");
+                  var captionText = document.getElementById("caption");
+                  if (n > slides.length) {slideIndex = 1}
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";
+                  dots[slideIndex-1].className += " active";
+                  captionText.innerHTML = dots[slideIndex-1].alt;
+                }
+                </script>
 </body>
 
 </html>
